@@ -1,0 +1,122 @@
+
+#img1 {
+
+width: 300px;
+height: 350px;
+background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+url(img/integration_gandalf.png);
+margin-left: 40px;
+margin-right: 40px;
+      }
+
+#img2 {
+
+width: 300px;
+height: 350px;
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+url(img/hobbit3.jpg);
+margin-left: 40px;
+margin-right: 40px;
+
+}
+
+#img3{
+
+width: 300px;
+height: 350px;
+background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+url(img/display_Dwarf.jpg);
+margin-left: 40px;
+margin-right: 40px;
+}
+
+
+#img1:hover {
+      background: url(img/integration_gandalf.png);
+}
+
+#img2:hover {
+background: url(img/hobbit3.jpg);
+}
+
+#img3:hover {
+background: url(img/display_Dwarf.jpg);
+}
+
+#caption1, #caption3 {
+
+font-size: 1.8em;
+background-color: white;
+border-radius: 8px;
+padding: 5px;
+position: relative;
+bottom : -10px;
+            }
+
+#caption2{
+
+font-size: 1.8em;
+background-color: black;
+border-radius: 8px;
+padding: 5px;
+position: relative;
+bottom : -10px;
+            }
+
+
+#captiona, #captionb, #captionc {
+
+font-size: 3.7em;
+color: white;
+position: relative;
+bottom: -10px;
+
+}
+
+#img1:hover #caption1 {
+
+display: none;
+
+}
+
+#img2:hover #caption2 {
+
+display: none;
+
+}
+
+#img3:hover #caption3 {
+
+display: none;
+
+}
+
+#img1:hover #captiona {
+
+font-size: 1.7em;
+position: relative;
+bottom: -300px;
+
+}
+
+#img2:hover #captionb {
+
+font-size: 1.7em;
+position: relative;
+bottom: -300px;
+
+}
+
+#img3:hover #captionc {
+
+font-size: 1.7em;
+position: relative;
+bottom: -300px;
+
+}
+
+span{
+
+      color:  #f60;
+
+}
